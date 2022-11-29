@@ -16,23 +16,16 @@ async function login(req, res) {
 
 async function signup(req, res) {
   try {
-    const { username, password, fullname, imgUrl } = req.body;
-    const account = await authService.signup(
-      username,
-      password,
-      fullname,
-      imgUrl
-    );
+    const account = await authService.signup({ ...req.body });
     logger.debug(
-      `auth.route - new account created: ` + JSON.stringify(account)
+      `auth.route - new account created: ` + JSON.stringify(account.username)
     );
-    const user = await authService.login(username, password);
+    const user = await authService.login(req.body.email, req.body.password);
     req.session.user = user;
-    console.log(req.session);
     res.json(user);
   } catch (err) {
     logger.error("Failed to signup " + err);
-    res.status(500).send({ err: "Failed to signup" });
+    res.status(500).send({ type: err });
   }
 }
 
@@ -51,7 +44,6 @@ async function loadUser(req, res) {
     res.json(req.session.user);
   } catch {}
 }
-
 
 module.exports = {
   loadUser,

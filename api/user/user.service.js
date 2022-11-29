@@ -1,12 +1,12 @@
 const dbService = require("../../services/db.service");
 const logger = require("../../services/logger.service");
-const boardService = require("../board/board.service");
 const ObjectId = require("mongodb").ObjectId;
 
 module.exports = {
   query,
   getById,
   getByUsername,
+  getByEmail,
   remove,
   update,
   add,
@@ -32,24 +32,24 @@ async function query(filterBy = {}) {
 }
 
 async function getById(userId) {
-  try {
-    const collection = await dbService.getCollection("user");
-    const user = await collection.findOne({ _id: ObjectId(userId) });
-    delete user.password;
+  // try {
+  //   const collection = await dbService.getCollection("user");
+  //   const user = await collection.findOne({ _id: ObjectId(userId) });
+  //   delete user.password;
 
-    user.givenReviews = await boardService.query({
-      byUserId: ObjectId(user._id),
-    });
-    user.givenReviews = user.givenReviews.map((review) => {
-      delete review.byUser;
-      return review;
-    });
+  //   user.givenReviews = await boardService.query({
+  //     byUserId: ObjectId(user._id),
+  //   });
+  //   user.givenReviews = user.givenReviews.map((review) => {
+  //     delete review.byUser;
+  //     return review;
+  //   });
 
-    return user;
-  } catch (err) {
-    logger.error(`while finding user ${userId}`, err);
-    throw err;
-  }
+  //   return user;
+  // } catch (err) {
+  //   logger.error(`while finding user ${userId}`, err);
+  //   throw err;
+  // }
 }
 async function getByUsername(username) {
   try {
@@ -58,6 +58,16 @@ async function getByUsername(username) {
     return user;
   } catch (err) {
     logger.error(`while finding user ${username}`, err);
+    throw err;
+  }
+}
+async function getByEmail(email) {
+  try {
+    const collection = await dbService.getCollection("user");
+    const user = await collection.findOne({ email });
+    return user;
+  } catch (err) {
+    logger.error(`while finding user ${email}`, err);
     throw err;
   }
 }
@@ -92,13 +102,6 @@ async function update(user) {
 
 async function add(user) {
   try {
-    // // peek only updatable fields!
-    // const userToAdd = {
-    //   username: user.username,
-    //   password: user.password,
-    //   fullname: user.fullname,
-    //   imgUrl: user.imgUrl
-    // };
     const collection = await dbService.getCollection("user");
     await collection.insertOne(user);
     return user;

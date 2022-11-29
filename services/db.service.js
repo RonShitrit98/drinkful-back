@@ -1,13 +1,11 @@
 const MongoClient = require("mongodb").MongoClient;
 
-const config = require("../config");
 
 module.exports = {
   getCollection,
 };
 
-// Database Name
-const dbName = "duelloDB";
+const dbName = process.env.DB_NAME;
 
 var dbConn = null;
 
@@ -25,7 +23,7 @@ async function getCollection(collectionName) {
 async function connect() {
   if (dbConn) return dbConn;
   try {
-    const client = await MongoClient.connect(config.dbURL, {
+    const client = await MongoClient.connect(process.env.DB_URL, {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });

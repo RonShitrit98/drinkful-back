@@ -1,0 +1,170 @@
+29/11/2022, 18:26:33 - INFO - Server is running on port: 3030 
+29/11/2022, 18:26:37 - INFO - Server is running on port: 3030 
+29/11/2022, 18:27:10 - INFO - Server is running on port: 3030 
+29/11/2022, 18:27:31 - INFO - Server is running on port: 3030 
+29/11/2022, 18:32:55 - INFO - Server is running on port: 3030 
+29/11/2022, 18:32:59 - INFO - Server is running on port: 3030 
+29/11/2022, 18:41:51 - INFO - Server is running on port: 3030 
+29/11/2022, 18:42:11 - INFO - Server is running on port: 3030 
+29/11/2022, 18:42:24 - INFO - Server is running on port: 3030 
+29/11/2022, 18:43:57 - INFO - Server is running on port: 3030 
+29/11/2022, 18:44:23 - INFO - Server is running on port: 3030 
+29/11/2022, 18:45:19 - INFO - Server is running on port: 3030 
+29/11/2022, 18:45:49 - INFO - Server is running on port: 3030 
+29/11/2022, 18:46:01 - INFO - Server is running on port: 3030 
+29/11/2022, 18:46:47 - INFO - Server is running on port: 3030 
+29/11/2022, 18:47:27 - INFO - Server is running on port: 3030 
+29/11/2022, 18:48:10 - DEBUG - auth.service - signup with username: undefined, email: undefined (sid: 9yZRUvh4iezS25whBrqJeqE-yufNkS9J)
+29/11/2022, 18:48:10 - ERROR - Failed to signup email, username and password are required! (sid: 9yZRUvh4iezS25whBrqJeqE-yufNkS9J)
+29/11/2022, 18:50:03 - INFO - Server is running on port: 3030 
+29/11/2022, 18:50:04 - DEBUG - auth.service - signup with username: ron, email: ron44447@gmail.com (sid: 9Aoyo6AvZf1pcpanQ_i0tGViJJekh3gV)
+29/11/2022, 18:50:04 - ERROR - Failed to signup ReferenceError: username is not defined (sid: 9Aoyo6AvZf1pcpanQ_i0tGViJJekh3gV)
+29/11/2022, 18:52:39 - INFO - Server is running on port: 3030 
+29/11/2022, 18:52:50 - INFO - Server is running on port: 3030 
+29/11/2022, 18:53:39 - INFO - Server is running on port: 3030 
+29/11/2022, 18:53:46 - INFO - Server is running on port: 3030 
+29/11/2022, 18:54:02 - INFO - Server is running on port: 3030 
+29/11/2022, 18:54:22 - INFO - Server is running on port: 3030 
+29/11/2022, 18:55:13 - INFO - Server is running on port: 3030 
+29/11/2022, 18:55:32 - INFO - Server is running on port: 3030 
+29/11/2022, 18:55:50 - INFO - Server is running on port: 3030 
+29/11/2022, 18:56:10 - DEBUG - auth.service - signup with username: ronn, email: ronron@gmail.com (sid: jQ4kTOc1-tT3QvhdFVh-FsCre92zhDGt)
+29/11/2022, 18:56:10 - ERROR - Failed to signup ReferenceError: username is not defined (sid: jQ4kTOc1-tT3QvhdFVh-FsCre92zhDGt)
+29/11/2022, 18:57:28 - INFO - Server is running on port: 3030 
+29/11/2022, 18:57:46 - DEBUG - auth.service - signup with username: ronnnnn, email: ronnn@gmail.com (sid: rJaFK-wkOAXmj8E5sgzeXZwh6jPK4wo7)
+29/11/2022, 18:57:46 - ERROR - Failed to signup ReferenceError: username is not defined (sid: rJaFK-wkOAXmj8E5sgzeXZwh6jPK4wo7)
+29/11/2022, 18:58:36 - INFO - Server is running on port: 3030 
+29/11/2022, 18:58:52 - INFO - Server is running on port: 3030 
+29/11/2022, 18:58:55 - DEBUG - auth.service - signup with username: ronnnnnn, email: ronnn@gmail.com (sid: 16nsgaOpLqlKs4sUF3RNg3tJcCA6OIpM)
+29/11/2022, 18:58:55 - ERROR - Failed to signup ReferenceError: username is not defined (sid: 16nsgaOpLqlKs4sUF3RNg3tJcCA6OIpM)
+29/11/2022, 18:59:20 - INFO - Server is running on port: 3030 
+29/11/2022, 18:59:22 - DEBUG - auth.service - signup with username: ronnnnnn, email: ronnn@gmail.com (sid: WyiNGS_qLhU9mJ353GV0cmYbOSiMErzV)
+29/11/2022, 18:59:23 - DEBUG - auth.route - new account created: {"email":"$2b$10$NW0H86iB0kT/Ub7nng7sZuH6wbjK9n8eRKns377.L..fU2FXtnbf6","username":"ronnnnnn","name":"","password":"$2b$10$BwqSNhnDz//RYRicQ7UZTu/Q4.uBnKUSgJG7tuJmRtRBg70ZUpVBu","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863a6b78e1181ee82c4ab5"} (sid: WyiNGS_qLhU9mJ353GV0cmYbOSiMErzV)
+29/11/2022, 18:59:23 - DEBUG - auth.service - login with email: $2b$10$NW0H86iB0kT/Ub7nng7sZuH6wbjK9n8eRKns377.L..fU2FXtnbf6 (sid: WyiNGS_qLhU9mJ353GV0cmYbOSiMErzV)
+29/11/2022, 18:59:23 - ERROR - Failed to signup Invalid username or password (sid: WyiNGS_qLhU9mJ353GV0cmYbOSiMErzV)
+29/11/2022, 19:01:45 - INFO - Server is running on port: 3030 
+29/11/2022, 19:02:00 - INFO - Server is running on port: 3030 
+29/11/2022, 19:02:03 - DEBUG - auth.service - signup with username: ronnnnnn, email: ronnn@gmail.com (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:04 - ERROR - Failed to signup Username already taken (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:10 - DEBUG - auth.service - signup with username: ronnnnnnמממממ, email: ronnn@gmail.com (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:10 - DEBUG - auth.route - new account created: {"email":"ronnn@gmail.com","username":"ronnnnnnמממממ","name":"","password":"$2b$10$PWY3IFygp1oA9ekozmyWjeFQp9XBJsxyUX0NESfoPbYJGR7Diyc2K","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863b12466f0f41fccc7b8c"} (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:10 - DEBUG - auth.service - login with email: ronnn@gmail.com (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:10 - ERROR - Failed to signup Invalid username or password (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:18 - DEBUG - auth.service - signup with username: ronnnnnnnnnnnnn, email: ronnn@gmail.com (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:19 - DEBUG - auth.route - new account created: {"email":"ronnn@gmail.com","username":"ronnnnnnnnnnnnn","name":"","password":"$2b$10$cb0O.E3XhYZAMvrEZXnuiuc35YHuniP3ezpPT4v.GOP15IwiXuMG2","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863b1b466f0f41fccc7b8d"} (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:19 - DEBUG - auth.service - login with email: ronnn@gmail.com (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:02:19 - ERROR - Failed to signup Invalid username or password (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:03:01 - DEBUG - auth.service - signup with username: trtyrty, email: ggg@gmail.com (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:03:01 - DEBUG - auth.route - new account created: {"email":"ggg@gmail.com","username":"trtyrty","name":"","password":"$2b$10$/.i4FGkTiDK4mlwNf46MHeW2AXiknHBgjnfS3knS6SSGjFSDpKLAi","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863b45466f0f41fccc7b8e"} (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:03:01 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:03:01 - ERROR - Failed to signup Invalid username or password (sid: yWRAK4y1M5H5-t7qvdN5_HJ3QugtFmjq)
+29/11/2022, 19:03:20 - INFO - Server is running on port: 3030 
+29/11/2022, 19:03:23 - DEBUG - auth.service - signup with username: trtyrtyy, email: ggg@gmail.com (sid: I-rxAWWQwi7KQ-03BX7YDGWMiMp_Ox35)
+29/11/2022, 19:03:24 - DEBUG - auth.route - new account created: {"email":"ggg@gmail.com","username":"trtyrtyy","name":"","password":"$2b$10$G9aV7wafS9DIhR1QeRJ/Xu8O0aSlTZaMirg9YvQtLCfwgzeCEoOSO","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863b5cee4a961a4cb9cad1"} (sid: I-rxAWWQwi7KQ-03BX7YDGWMiMp_Ox35)
+29/11/2022, 19:03:24 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: I-rxAWWQwi7KQ-03BX7YDGWMiMp_Ox35)
+29/11/2022, 19:03:24 - ERROR - Failed to signup Invalid username or password (sid: I-rxAWWQwi7KQ-03BX7YDGWMiMp_Ox35)
+29/11/2022, 19:03:39 - INFO - Server is running on port: 3030 
+29/11/2022, 19:03:48 - INFO - Server is running on port: 3030 
+29/11/2022, 19:03:49 - DEBUG - auth.service - signup with username: trtyrtyy, email: ggg@gmail.com (sid: Ua8zbAWwKcaii9Q-jqwbW27O9cCIdGRv)
+29/11/2022, 19:03:50 - ERROR - Failed to signup Username already taken (sid: Ua8zbAWwKcaii9Q-jqwbW27O9cCIdGRv)
+29/11/2022, 19:03:55 - DEBUG - auth.service - signup with username: trtyrtyyy, email: ggg@gmail.com (sid: Ua8zbAWwKcaii9Q-jqwbW27O9cCIdGRv)
+29/11/2022, 19:03:55 - DEBUG - auth.route - new account created: {"email":"ggg@gmail.com","username":"trtyrtyyy","name":"","password":"$2b$10$sdVFR/zyYRr1u0RkvN5Tw.XM6ZesUhqUY4.yWlaug5xiriOT2w91G","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863b7b41e2f734240e808a"} (sid: Ua8zbAWwKcaii9Q-jqwbW27O9cCIdGRv)
+29/11/2022, 19:03:55 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: Ua8zbAWwKcaii9Q-jqwbW27O9cCIdGRv)
+29/11/2022, 19:03:55 - ERROR - Failed to signup Invalid username or passwordddddd! (sid: Ua8zbAWwKcaii9Q-jqwbW27O9cCIdGRv)
+29/11/2022, 19:04:26 - INFO - Server is running on port: 3030 
+29/11/2022, 19:04:28 - DEBUG - auth.service - signup with username: trtyrtyyy, email: ggg@gmail.com (sid: IF98Y8jEsKCtb3B4CMbe2Pnw4AUSW1SJ)
+29/11/2022, 19:04:29 - ERROR - Failed to signup Username already taken (sid: IF98Y8jEsKCtb3B4CMbe2Pnw4AUSW1SJ)
+29/11/2022, 19:04:34 - DEBUG - auth.service - signup with username: trtyrtyyyy, email: ggg@gmail.com (sid: IF98Y8jEsKCtb3B4CMbe2Pnw4AUSW1SJ)
+29/11/2022, 19:04:34 - DEBUG - auth.route - new account created: {"email":"ggg@gmail.com","username":"trtyrtyyyy","name":"","password":"$2b$10$G8sa.fznR/qGCs9zirode.ZNEOkjYFCWC7O9aVMfX6yVhcdSKQTKK","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863ba2c046151ebca72550"} (sid: IF98Y8jEsKCtb3B4CMbe2Pnw4AUSW1SJ)
+29/11/2022, 19:04:34 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: IF98Y8jEsKCtb3B4CMbe2Pnw4AUSW1SJ)
+29/11/2022, 19:04:35 - ERROR - Failed to signup Invalid username or passwordddddd! (sid: IF98Y8jEsKCtb3B4CMbe2Pnw4AUSW1SJ)
+29/11/2022, 19:04:50 - INFO - Server is running on port: 3030 
+29/11/2022, 19:04:52 - DEBUG - auth.service - signup with username: trtyrtyyyy, email: ggg@gmail.com (sid: nHmpwIL2IK3mB_3WkACY1IE8AqScQssO)
+29/11/2022, 19:04:53 - ERROR - Failed to signup Username already taken (sid: nHmpwIL2IK3mB_3WkACY1IE8AqScQssO)
+29/11/2022, 19:04:56 - DEBUG - auth.service - signup with username: trtyrtyyyyy, email: ggg@gmail.com (sid: nHmpwIL2IK3mB_3WkACY1IE8AqScQssO)
+29/11/2022, 19:04:56 - DEBUG - auth.route - new account created: {"email":"ggg@gmail.com","username":"trtyrtyyyyy","name":"","password":"$2b$10$HqWnKAmAiIwop8Cy9CLPsOV/cMQCE8suXXIboFimhPVdyVa.rKA4C","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863bb8c42cce4ef82c0f07"} (sid: nHmpwIL2IK3mB_3WkACY1IE8AqScQssO)
+29/11/2022, 19:04:56 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: nHmpwIL2IK3mB_3WkACY1IE8AqScQssO)
+29/11/2022, 19:04:56 - ERROR - Failed to signup Invalid username or passwordddddd! (sid: nHmpwIL2IK3mB_3WkACY1IE8AqScQssO)
+29/11/2022, 19:06:32 - INFO - Server is running on port: 3030 
+29/11/2022, 19:06:35 - DEBUG - auth.service - signup with username: trtyrtyyyyyy, email: ggg@gmail.com (sid: i5Dt6MD7IVzZuPjstadevmtfNZYjKEjl)
+29/11/2022, 19:06:36 - DEBUG - auth.route - new account created: {"email":"ggg@gmail.com","username":"trtyrtyyyyyy","name":"","password":"$2b$10$kguR1QbroBSc2u80HUUbGecITYJgJY7AoDFAGLmvcyT394TMj.ph6","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863c1c6ff66649847eebcb"} (sid: i5Dt6MD7IVzZuPjstadevmtfNZYjKEjl)
+29/11/2022, 19:06:36 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: i5Dt6MD7IVzZuPjstadevmtfNZYjKEjl)
+29/11/2022, 19:06:37 - ERROR - Failed to signup Invalid username or passwordddddd! (sid: i5Dt6MD7IVzZuPjstadevmtfNZYjKEjl)
+29/11/2022, 19:06:50 - INFO - Server is running on port: 3030 
+29/11/2022, 19:06:52 - DEBUG - auth.service - signup with username: trtyrtyyyyyy, email: ggg@gmail.com (sid: hqLT23vFpzywsEZkLgbFolQvYCKBSqrx)
+29/11/2022, 19:06:53 - ERROR - Failed to signup Username already taken (sid: hqLT23vFpzywsEZkLgbFolQvYCKBSqrx)
+29/11/2022, 19:06:58 - DEBUG - auth.service - signup with username: trtyrtyyyyyyy, email: ggg@gmail.com (sid: hqLT23vFpzywsEZkLgbFolQvYCKBSqrx)
+29/11/2022, 19:06:58 - DEBUG - auth.route - new account created: {"email":"ggg@gmail.com","username":"trtyrtyyyyyyy","name":"","password":"$2b$10$3F9ffuzkjyCE9zAn7MEi..iNZoh7K0P77D4Z5GSOCy/phtE1jGP5m","imgUrl":"","packs":[],"isActivated":false,"type":"regular","_id":"63863c32bfc62741947d7439"} (sid: hqLT23vFpzywsEZkLgbFolQvYCKBSqrx)
+29/11/2022, 19:06:58 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: hqLT23vFpzywsEZkLgbFolQvYCKBSqrx)
+29/11/2022, 19:06:58 - ERROR - Failed to signup Invalid username or passwordddddd! (sid: hqLT23vFpzywsEZkLgbFolQvYCKBSqrx)
+29/11/2022, 19:07:21 - INFO - Server is running on port: 3030 
+29/11/2022, 19:07:44 - INFO - Server is running on port: 3030 
+29/11/2022, 19:09:07 - INFO - Server is running on port: 3030 
+29/11/2022, 19:10:27 - INFO - Server is running on port: 3030 
+29/11/2022, 19:10:30 - DEBUG - auth.service - signup with username: trtyrtyyyyyyyy, email: ggg@gmail.com (sid: s04reR6GSbebY1SY_c7R_CXL4vv6k0NX)
+29/11/2022, 19:10:31 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: s04reR6GSbebY1SY_c7R_CXL4vv6k0NX)
+29/11/2022, 19:10:31 - ERROR - Failed to signup Invalid username or passwordddddd! (sid: s04reR6GSbebY1SY_c7R_CXL4vv6k0NX)
+29/11/2022, 19:10:59 - INFO - Server is running on port: 3030 
+29/11/2022, 19:11:02 - DEBUG - auth.service - signup with username: trtyrtyyyyyyyyy, email: ggg@gmail.com (sid: 2xf_0EFzNiKp0Q92dpYJWFNxg1-ux34O)
+29/11/2022, 19:11:03 - DEBUG - auth.service - login with email: ggg@gmail.com (sid: 2xf_0EFzNiKp0Q92dpYJWFNxg1-ux34O)
+29/11/2022, 19:11:40 - INFO - Server is running on port: 3030 
+29/11/2022, 19:11:55 - INFO - Server is running on port: 3030 
+29/11/2022, 19:12:21 - INFO - Server is running on port: 3030 
+29/11/2022, 19:12:35 - INFO - Server is running on port: 3030 
+29/11/2022, 19:14:12 - INFO - Server is running on port: 3030 
+29/11/2022, 19:17:56 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: oZ7bVIxaQA5EfXTdP9DwwDrXzY9GHxxN)
+29/11/2022, 19:17:57 - DEBUG - auth.route - new account created: "ron" (sid: oZ7bVIxaQA5EfXTdP9DwwDrXzY9GHxxN)
+29/11/2022, 19:17:57 - DEBUG - auth.service - login with email: 123@gmail.com (sid: oZ7bVIxaQA5EfXTdP9DwwDrXzY9GHxxN)
+29/11/2022, 19:18:07 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: oZ7bVIxaQA5EfXTdP9DwwDrXzY9GHxxN)
+29/11/2022, 19:18:07 - ERROR - Failed to signup Username already taken (sid: oZ7bVIxaQA5EfXTdP9DwwDrXzY9GHxxN)
+29/11/2022, 19:19:46 - INFO - Server is running on port: 3030 
+29/11/2022, 19:19:47 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: kEHtz1OArutU_BXmmIPJqMESkzs2vKTj)
+29/11/2022, 19:19:56 - INFO - Server is running on port: 3030 
+29/11/2022, 19:19:57 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: fbaSXQEe4atn0Sqht0UhVxkp8g7vpzJ8)
+29/11/2022, 19:19:59 - ERROR - Failed to signup Username already taken (sid: fbaSXQEe4atn0Sqht0UhVxkp8g7vpzJ8)
+29/11/2022, 19:20:06 - INFO - Server is running on port: 3030 
+29/11/2022, 19:22:17 - INFO - Server is running on port: 3030 
+29/11/2022, 19:22:19 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: AOqSe_dcBpO6_MsqxTweyy89DWCuT5Us)
+29/11/2022, 19:22:20 - ERROR - Failed to signup Username already taken (sid: AOqSe_dcBpO6_MsqxTweyy89DWCuT5Us)
+29/11/2022, 19:23:18 - INFO - Server is running on port: 3030 
+29/11/2022, 19:23:21 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: j0-QYvJ3-6UjyTVb92Pdi7p7YcuuErPJ)
+29/11/2022, 19:23:22 - ERROR - Failed to signup Username already taken (sid: j0-QYvJ3-6UjyTVb92Pdi7p7YcuuErPJ)
+29/11/2022, 19:23:45 - INFO - Server is running on port: 3030 
+29/11/2022, 19:23:49 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: dQMxw_aw9uxYNHk2PH_TIK2WdLht895N)
+29/11/2022, 19:23:50 - ERROR - Failed to signup Username already taken (sid: dQMxw_aw9uxYNHk2PH_TIK2WdLht895N)
+29/11/2022, 19:24:13 - INFO - Server is running on port: 3030 
+29/11/2022, 19:24:15 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: 4Mv2RSQN08f2o-ygBkomA7wSV3lNVu44)
+29/11/2022, 19:24:16 - ERROR - Failed to signup Username already taken (sid: 4Mv2RSQN08f2o-ygBkomA7wSV3lNVu44)
+29/11/2022, 19:24:28 - INFO - Server is running on port: 3030 
+29/11/2022, 19:24:30 - DEBUG - auth.service - signup with username: ron, email: 123@gmail.com (sid: qvxZ1ortzAOAoNGdkgwcooF2L_VDHgyu)
+29/11/2022, 19:24:31 - ERROR - Failed to signup Username already taken (sid: qvxZ1ortzAOAoNGdkgwcooF2L_VDHgyu)
+29/11/2022, 19:25:30 - INFO - Server is running on port: 3030 
+29/11/2022, 19:26:19 - DEBUG - auth.service - signup with username: yut, email: tyuu@gmail.com (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:26:20 - DEBUG - auth.route - new account created: "yut" (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:26:20 - DEBUG - auth.service - login with email: tyuu@gmail.com (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:26:24 - DEBUG - auth.service - signup with username: yut, email: tyuu@gmail.com (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:26:24 - ERROR - Failed to signup Username already taken (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:27:52 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:27:52 - ERROR - Failed to signup Username already taken (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:28:30 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:28:30 - ERROR - Failed to signup Username already taken (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:28:52 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:28:52 - ERROR - Failed to signup Username already taken (sid: qMi_rYI3lGWiBtck5c0OwalssHOwU84p)
+29/11/2022, 19:30:13 - INFO - Server is running on port: 3030 
+29/11/2022, 19:30:33 - INFO - Server is running on port: 3030 
+29/11/2022, 19:30:35 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:30:36 - ERROR - Failed to signup usernameTaken (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:31:12 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:31:12 - ERROR - Failed to signup usernameTaken (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:32:43 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:32:43 - ERROR - Failed to signup usernameTaken (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:34:04 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:34:04 - ERROR - Failed to signup usernameTaken (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:34:13 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:34:13 - ERROR - Failed to signup usernameTaken (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:34:48 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:34:48 - ERROR - Failed to signup usernameTaken (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:35:24 - DEBUG - auth.service - signup with username: ron, email: ron@gmail.com (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:35:24 - ERROR - Failed to signup usernameTaken (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:36:06 - DEBUG - auth.service - signup with username: ron, email: ron@mail.com (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)
+29/11/2022, 19:36:06 - ERROR - Failed to signup usernameTaken (sid: OTKsGbvz9iTEQEb3_enX8i3-gR4K1AaE)

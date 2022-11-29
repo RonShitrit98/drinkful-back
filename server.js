@@ -18,42 +18,24 @@ app.use(express.json({ limit: "25mb" }));
 app.use(session);
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("public"));
+  app.use(express.static(path.resolve(__dirname, "public")));
+} else {
+  const corsOptions = {
+    origin: [
+      "http://127.0.0.1:8080",
+      "http://localhost:8080",
+      "http://127.0.0.1:3000",
+      "http://localhost:3000",
+      "http://127.0.0.1:5173",
+      "http://localhost:5173",
+    ],
+    credentials: true,
+  };
+  app.use(cors(corsOptions));
 }
-const corsOptions = {
-  origin: [
-    "http://127.0.0.1:8080",
-    "http://localhost:8080",
-    "http://127.0.0.1:3000",
-    "http://localhost:3000",
-    "http://127.0.0.1:5173",
-    "http://localhost:5173",
-  ],
-  credentials: true,
-};
-app.use(cors(corsOptions));
-
-// if (process.env.NODE_ENV === "production") {
-//   app.use(express.static(path.resolve(__dirname, "public")));
-// } else {
-//   const corsOptions = {
-//     origin: [
-//       "http://127.0.0.1:8080",
-//       "http://localhost:8080",
-//       "http://127.0.0.1:3000",
-//       "http://localhost:3000",
-//       "http://127.0.0.1:5173",
-//       "http://localhost:5173",
-//     ],
-//     credentials: true,
-//   };
-//   app.use(cors(corsOptions));
-// }
 
 const authRoutes = require("./api/auth/auth.routes");
 const userRoutes = require("./api/user/user.routes");
-const boardRoutes = require("./api/board/board.routes");
-const giphyRoutes = require("./api/giphy/giphy.routes");
 const imgRoutes = require("./api/img/img.routes");
 const googleRoutes = require("./api/google/google.routes");
 const { connectSockets } = require("./services/socket.service");
@@ -64,8 +46,6 @@ app.all("*", setupAsyncLocalStorage);
 
 app.use("/api/auth", authRoutes);
 app.use("/api/user", userRoutes);
-app.use("/api/board", boardRoutes);
-app.use("/api/giphy", giphyRoutes);
 app.use("/api/img", imgRoutes);
 app.use("/api/google", googleRoutes);
 connectSockets(http, session);
